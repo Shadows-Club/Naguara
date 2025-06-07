@@ -103,7 +103,7 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data);
 loadChatgptDB();
 
 global.creds = 'creds.json'
-global.authFile = 'GaruSession'
+global.authFile = 'NaguaraSession'
 global.authFileJB  = 'JadiBots2'
 
 const {state, saveState, saveCreds} = await useMultiFileAuthState(authFile)
