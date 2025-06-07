@@ -31,7 +31,7 @@ return list[Math.floor(Math.random() * list.length)]
 
 let handler = async (m, { conn, command, text }) => {
 
-    if (!text) return m.reply(`*${emojis} Ingrese el nombre de alguna persona.*\n\n*💫 Ejemplo:* .personalidad Garu`)
+    if (!text) return m.reply(`*${emojis} Ingrese el nombre de alguna persona.*\n\n*💫 Ejemplo:* .personalidad María`)
 
   let personalidad = `
 ┏━━°❀❬ *PERSONALIDAD}* ❭❀°━━┓
