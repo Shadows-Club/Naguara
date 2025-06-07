@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Shadows-Club/GaruBot",
+"homepage": "https://github.com/Shadows-Club/Naguara",
 "author": {
 "name": "Cristian Escobar"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Shadows-Club/GaruBot.git"
+"url": "git+https://github.com/Shadows-Club/Naguara.git"
 },
 "bugs": {
-"url": "https://github.com/Shadows-Club/GaruBot/issues"
+"url": "https://github.com/Shadows-Club/Naguara/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
