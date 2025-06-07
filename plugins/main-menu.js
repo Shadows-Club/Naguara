@@ -4,7 +4,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
   try {
     await m.react('🕷️');
 
-    let img = 'https://files.catbox.moe/ltn86q.jpg';
+    let img = 'https://files.catbox.moe/g30f94.jpg';
     let insta = 'https://instagram.com/dev.criss_vx';
 
     const _uptime = process.uptime() * 1000;
@@ -19,7 +19,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
 
     const text = `
-ㅤ𐙚ㅤ   *𝖦𝖺𝗋𝗎*    ﾉㅤㅤ *𝖡𝗈𝗍*  ㅤ🕷️ ㅤׄ
+ㅤ𐙚ㅤ   *Naguará*   ﾉㅤ*Oficial*  ㅤ🕷️ ㅤׄ
 ᗝ̵ *Hᴏʟᴀ ${taguser}*\nㅤ *✰⃕${saludo}*
 
 > ꒰꛱ ͜Desarrollado por *Cristian Escobar* +51927238856
@@ -36,7 +36,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
 ╰┉꙰╾‌━ٜ͙͙͙͙͙┅ٜ͙͙͙͙┉ٜ͙͙͙͙͙͙┄ٜ͙͙•●᪱•ٜ┄ٜ͙͙┉ٜ͙͙͙͙͙͙┅ٜ͙͙͙͙͙━͙͙͙͙╾‌ࣩ
 
 
-> 🕷️ Si encuentra un comando con errores no dudes en reportarlo con el Creador
+> 🪶 Si encuentra un comando con errores no dudes en reportarlo con el Creador
 
 ╭── ︿︿︿︿︿ *⭒   ⭒   ⭒   ⭒*
 ┊ ‹‹ \`Menús::\`
@@ -390,7 +390,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
         isForwarded: true,
         forwardingScore: 999,
         externalAdReply: {
-          title: `${await conn.getName(m.sender)}, Thank for using Garu, you can follow me on Instagram by clicking here`,
+          title: `${await conn.getName(m.sender)}, Thank for using Naguará, you can follow me on Instagram by clicking here`,
           body: 'Im Dev Criss 💋',
           thumbnail: await (await fetch(img)).buffer(),
           sourceUrl: insta,
