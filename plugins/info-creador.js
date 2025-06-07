@@ -27,7 +27,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'Hello I am the creator of Garu',
+                title: 'Hello I am the creator of Naguara Bot Oficial',
                 body: 'Dev.Criss 🇦🇱',
                 thumbnail: thumb,
                 sourceUrl: 'https://wa.me/51927238856?text=¡Hola!,+Quiero+bot+perzonalizando.',
