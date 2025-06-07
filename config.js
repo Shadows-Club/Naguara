@@ -8,7 +8,7 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-   ['56964656014', 'Igacio', true],
+   ['', 'Martinpi', true],
    ['51927238856', 'Cristian Escobar', true],
    ['51990841568', 'Moderador', false],
    ['51965911060', 'Moderador', false]
@@ -18,18 +18,18 @@ global.creadorbot = [
    ['51927238856', 'Cristian Escobar', true]
 ]
 
-global.mods = ['51990841568', '51965911060', '51906168999']
-global.prems = ['51965911060', '51906168999']
+global.mods = []
+global.prems = []
 
 
-global.packname = 'Garu Bot - MD'
-global.botname = 'Garu Bot - MD'
+global.packname = 'Naguara Bot - MD'
+global.botname = 'Naguara Bot - MD'
 global.wm = 'Garu Bot - MD'
 global.author = '𝖲𝗁⍺𝖽ᦅ𝗐′𝗌 𝖢𝗅𝗎𝖻'
 global.dev = '𝖯𑄜𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 𝖲𝗁⍺𝖽ᦅ𝗐′𝗌 𝖢𝗅𝗎𝖻'
 global.errorm = 'Error: ${error.message}'
-global.nombrebot = 'Garu Bot - MD'
-global.textbot = `GARU BOT MD`
+global.nombrebot = 'Bot Naguara Oficial'
+global.textbot = `NAGUARA OFICIAL`
 global.vs = '1.0.0'
 
 
