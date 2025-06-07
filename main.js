@@ -245,7 +245,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.yellow(`\n💚 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• GARUU-BOT •】⸺⸺⸺⸺❒`))}
+console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• NAGUARÁ-BOT •】⸺⸺⸺⸺❒`))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
 if (reason === DisconnectReason.badSession) {
